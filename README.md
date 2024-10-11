@@ -2,7 +2,7 @@
 For participants in the WSDS Short Course, Using Tools for Effective Open Science Collaboration: Github.
 
 ## Setup
-Before the workshop on October 16, following the **Install Git** and **Make a Github Account** instructions below.
+Before the workshop on October 16, following the instructions below.
 
 ### Install Git
 1. Follow the [instructions for your operating system](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
@@ -43,4 +43,5 @@ You can use a credential manager so you don't have to add your token every time 
 1. Open up Git Bash (Windows) or terminal (Mac/Linux). Type the following commands (press enter between each) to set your name and email. Change "Your Name" and "Your Email" to your actual name and email, or whatever you would like displayed alongside your commits.
 
 `git config --global user.name "Your Name"`
+
 `git config --global user.email "Your Email"`
