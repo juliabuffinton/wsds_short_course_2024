@@ -34,16 +34,16 @@ Here we'll create one, set up git to track future changes, and add some details 
 
 An empty README isn't particularly useful. Let's add some text to it!
 
-1. Using a text editor of your choice, or the command line, enter the following text:
-
+1. Using a text editor of your choice, or the command line, enter the following text in your README file:
 ```
 # Using Tools for Effective Open Science Collaboration: GitHub
 
-This is a sample repository created during the WSDS 2024 Short Course titled "Using Tools for Effective Open Science Collaboration: GitHub". 
+This is a sample repository created during the WSDS 2023 Short Course titled "Using Tools for Effective Open Science Collaboration: GitHub". 
 
-Here I will practice basic git commands, branching and merging, and remote repository collaboration
-
+Here I will practice basic git commands, branching and merging, and remote repository collaboration.
 ```
+(Pro tip: pasting in vim can be done using `Shift+Insert`.)
+2. Check the status again, and you'll see that modified the readme file. 
 
 
 # Later
