@@ -45,3 +45,7 @@ You can use a credential manager so you don't have to add your token every time 
 `git config --global user.name "Your Name"`
 
 `git config --global user.email "Your Email"`
+
+2. Change your default branch name (more on that later!) to "main." This will ensure compatibility with GitHub. The below command will do this for all future-created git repositories on your machine because you're using the `--global` flag.
+
+`git config --global init.defaultBranch main`
