@@ -44,6 +44,11 @@ Here I will practice basic git commands, branching and merging, and remote repos
 ```
 (Pro tip: pasting in vim can be done using `Shift+Insert`.)
 2. Check the status again, and you'll see that modified the readme file. 
+3. Add the changes you've made to be staged for commit, using `git add README.md`.
+4. Realize that we typed 2023, when we meant 2024! Edit your file again to correct the year.
+5. Double check to make sure we edited what we needed to by comparing against the previous version we added. Use the `git diff` command to show the lins of text that were changed. You should see the line with 2023 in red indicating it was removed, and the lin with 2024 in green indicating it was added.
+6. Add the README file to be staged for commit.
+7. Commit the file with a descriptive message, such as `git commit -m "add text to README file"`.
 
 
 # Later
