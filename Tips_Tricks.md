@@ -16,3 +16,7 @@ A collection of tips and tricks for issues you may encounter throughout the cour
 1. You can use the `touch` command to quickly create an empty file - your machine will look for that file, and if it doesn't exist, create one. Don't forget the file extension!
 
 2. If you want to create it using a command line text editor, `nano` or `vim` work well.
+
+## Remove local repsitory
+
+1. If you accidentally initialized a git repository in the wrong folder, un-git-ify it without deleting the whole folder by typing the following command to remove the `.git` diretory: `rm -r .git`.
