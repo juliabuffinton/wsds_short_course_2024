@@ -17,7 +17,7 @@ We're going do this the first way, since all it requires is git on your own comp
    2. Git bash now shows `(main)` after directory. (If you see something else like `(master)`, refer to set up Tips and Tricks for how to change branch name).
    3. Type `git status`. It should tell you no commits yet and nothing to commit. (Indicator of failure to intialize would be a fatal error indicating you're not in a git repo.)
 
-### Add a README file, Track it
+### Add a README file; track it
 
 It's always a good practice to create a README file. The README acts as the first point of contact for anyone (Future You, peer, collaborator, etc.) who needs to understand the purpose of the project, how to use it, or how to contribute. 
 
@@ -43,72 +43,10 @@ This is a sample repository created during the WSDS 2023 Short Course titled "Us
 Here I will practice basic git commands, branching and merging, and remote repository collaboration.
 ```
 (Pro tip: pasting in vim can be done using `Shift+Insert`.)
+
 2. Check the status again, and you'll see that modified the readme file. 
 3. Add the changes you've made to be staged for commit, using `git add README.md`.
 4. Realize that we typed 2023, when we meant 2024! Edit your file again to correct the year.
 5. Double check to make sure we edited what we needed to by comparing against the previous version we added. Use the `git diff` command to show the lins of text that were changed. You should see the line with 2023 in red indicating it was removed, and the lin with 2024 in green indicating it was added.
 6. Add the README file to be staged for commit.
 7. Commit the file with a descriptive message, such as `git commit -m "add text to README file"`.
-
-
-# Later
- because then we can also get familiar with Github, and it is (in my opinion) a little easier to set up.
-
-1. Go to [Github.com](https://github.com) and create a new repository by clicking the green "New" button on the left side.
-2. Give your new repo a fun name! Git will suggest one; take its suggestion by clicking on the green text after "How about...?"
-3. Make sure your repo is public and check "Add a README file" under the Initialize header. Create your repository.
-
-Tada!
-
-
-
-
-
-## Configure Repo
-Every repo is different, and there are many ways to configure each to meet their specific need. 
-
-1. Go to "Settings" along the top menu bar.
-2. On the first page ("General") make sure your default branch is set to `main`. If not, change it!
-3. Under "Code and automation" click on "Branches". Practice adding a branch protection rule where the "main" branch requires a pull request before merging. **Do not save!** This is a best practice for individual and collaborative code development; it's a handy guardrail preventing accidental pushes of code to the production branch. For more about branch protection, visit [this link](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rulegit).
-
-## Clone Your Repo
-
-1. In Git Bash or terminal, navigate to the directory you'd like to put this repo in (e.g., the directory that will be the parent of your repo). **It is very important that you do NOT clone this repository into an existing git-tracked repository.**
-
-   Option A: using file explorer, navigate to the directory. Copy the address. In Git Bash, type `cd ` (note the space after cd) and then paste the address (SHIFT+INS).
-   Option B: within Git Bash, navigate to your directory using `cd ` command.
-
-2. In Github, go back to "Code" in the top menu bar.
-3. Click the green "<> Code" button in the upper right. Make sure you are on the **HTTPS** tab (we haven't set up SSH); copy the URL to your clipboard.
-4. In Git Bash, type `git clone ` (note the space after clone) and then paste (SHIFT+INS) the URL. 
-5. Navgiate into to that repository by typing `cd <your_repo_name>`.
-
-## Practice!
-Now, we are going to practice a few basic commands in git.
-
-### Make some local changes
-1. Open up your README file in your preferred editor (VS Code, Notepad, vim, etc.).
-2. Add the following line: `This is a sample README for WIDS DC 2024. In it, I will write some simple python code, edit it, and track changes.`
-3. Commit this change by going back to Git Bash, typing `git add README.md`. (you can always check the status of any file you've edited by typing `git status`)
-4. Type `git commit -m "modify readme"`.
-5. Create a new file called `hello.py`. Edit that file to add the python code `print("hello world")`. Save.
-6. Commit this change by going back to Git Bash, typing `git add hello.py` (pro tip: most terminals/Git Bash have tab complete) then `git commit -m "create hello.py; print hello world"`
-7. Check your log! What have you done so far? Type `git log --oneline`. The oneline flag will make it display each commit on one line which makes it easier to read.
-8. Add another line to your README, "I am learning git!".
-9. Before staging and committing that file, check what changed by typing `git diff README.md`.
-10. Then, add the file to the staging area and the commit it with a helpful message.
-
-### Push your changes to the remote repo
-1. Type `git push`. Enter any credentials you are prompted for.
-2. Navigate to the remote repository in your browser (there will be a link the second-to-last line in the output after you push. Check to make sure your changes are there!
-
-### Make a new branch
-Now, create a new branch to change the code in our `hello.py` file.
-
-1. Create a new branch by typing `git branch -b change_hello_msg`. This will create the new branch; the `-b` flag also immediately switches to that branch.
-2. Edit the hello.py file to change "world" to "WiDS".
-3. Add and commit the file.
-4. Switch back to your main branch by typing `git checkout main`. Check the file again - has the text changed?
-5. Merge your changes into the main branch by typing `git merge change_hello_msg`.
-6. Check the log by typing `git log --oneline --graph`. You should see each commit on main, where we branch to the new branch, commits made there, and when it comes back together.
-7. Push your changes to the remote repository and check them out in Github!
