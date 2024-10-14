@@ -49,3 +49,11 @@ You can use a credential manager so you don't have to add your token every time 
 2. Change your default branch name (more on that later!) to "main." This will ensure compatibility with GitHub. The below command will do this for all future-created git repositories on your machine because you're using the `--global` flag.
 
 `git config --global init.defaultBranch main`
+
+3. Automatically set up a remote tracking branch when you create a new branch locally (more on this later, too!). This will simplify the process of pushing changes to a remote repository.
+
+`git config --global push.autoSetupRemote true`
+
+4. Check that everything you just did "stuck" by examining your configuration for the items above.
+
+`git config --list`
