@@ -53,6 +53,13 @@ To transform raw data into actionable insights by employing rigorous analytical 
 - **Transparency**: Maintain openness in methods, assumptions, and results, ensuring that stakeholders can trust and understand the analysis process.
 - **Inclusivity**: Value diverse perspectives and experiences within the team, fostering an environment where everyone's voice is heard and respected.
 - **Service Orientation**: Focus on meeting the needs of stakeholders, providing actionable insights that drive positive outcomes for the organization.
+
+## Data Analysis Standards
+### Data Cleaning Checklist
+
+### Visualization Guidelines
+
+### Version Control Best Practices
 ```
 (Pro tip: pasting in vim can be done using `Shift+Insert`.)
 
