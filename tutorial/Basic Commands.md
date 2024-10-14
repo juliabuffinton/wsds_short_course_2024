@@ -17,7 +17,7 @@ We're going do this the first way, since all it requires is git on your own comp
    2. Git bash now shows `(main)` after directory. (If you see something else like `(master)`, refer to set up Tips and Tricks for how to change branch name).
    3. Type `git status`. It should tell you no commits yet and nothing to commit. (Indicator of failure to intialize would be a fatal error indicating you're not in a git repo.)
 
-### Add a README file; track it
+## Add a README file; track it
 
 It's always a good practice to create a README file. The README acts as the first point of contact for anyone (Future You, peer, collaborator, etc.) who needs to understand the purpose of the project, how to use it, or how to contribute. 
 
@@ -30,7 +30,7 @@ Here we'll create one, set up git to track future changes, and add some details 
 5. Commit it! We're tracking it now but the file initialization isn't yet captured by git as an official checkpoint. To snapshot the status of the file now, type `git commit -m "Intialize README file"`. The `-m` flag adds a commit message.
 6. Checking the status again (you know the command!), you'll no longer see the file listed - this is because there are no new changes made since we have committed it. Instead, you'll see that your branch is ahead of the origin (more on that later...) by 1 commit. 
 
-### Modify README file
+## Modify README file
 
 An empty README isn't particularly useful. Let's add some text to it!
 
