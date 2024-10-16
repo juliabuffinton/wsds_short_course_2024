@@ -8,7 +8,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 - **Collaboration**: Foster a spirit of teamwork and open communication to achieve common goals and enhance the quality of insights.
 - **Curiosity**: Encourage a culture of inquiry and exploration, where team members continuously seek to understand data more deeply and ask insightful questions.
 - **Innovation**: Embrace creativity and experimentation in data analysis methods and visualization techniques to drive impactful results.
-- **Accountblity**: Take ownership of individual and team responsibilities, ensuring that all analyses and deliverables meet quality and timeliness standards.
+- **Accountability**: Take ownership of individual and team responsibilities, ensuring that all analyses and deliverables meet quality and timeliness standards.
 - **Adaptability**: Stay flexible and responsive to changing priorities, technologies, and methodologies in the fast-paced field of data analysis.
 - **Continuous Improvement**: Commit to ongoing learning and development, actively seeking feedback and opportunities for growth in skills and processes.
 - **Data-Driven Decision Making**: Prioritize evidence-based insights and recommendations to support informed decision-making across the organization.
