@@ -50,7 +50,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 10.
 11.
 12.
-13.
+13. Branches should refererence the main regularly to ensure changes in main are merged into branch. Then when branch is complete, merge in main again, before pushing into main.
 14.
 15.
 16.
