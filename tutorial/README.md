@@ -41,7 +41,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 1. USE VERSION CONTROL. Don't let perfect be the enemy of good.
 2.
 3.
-4.
+4. Keep README up to date.
 5.
 6.
 7.
