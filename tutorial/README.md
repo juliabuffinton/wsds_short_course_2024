@@ -49,7 +49,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 9.
 10.
 11.
-12.
+12. Don't use vim. Instead use 'explorer .' to open File Explorer and right click file to edit with Notepad++.
 13.
 14.
 15.
