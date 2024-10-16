@@ -47,7 +47,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 7.
 8.
 9.
-10.
+10.Keep your commmits (and branches) atomic. Don't put 17 different edits in a single commit that's hard to decipher and troubleshoot later.
 11.
 12.
 13.
