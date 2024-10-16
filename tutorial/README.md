@@ -39,6 +39,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 
 ### Version Control Best Practices
 1. USE VERSION CONTROL. Don't let perfect be the enemy of good.
+2.
 3.
 4.
 5.
