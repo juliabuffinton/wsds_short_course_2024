@@ -41,14 +41,14 @@ To transform raw data into actionable insights by employing rigorous analytical 
 1. USE VERSION CONTROL. Don't let perfect be the enemy of good.
 2.
 3.
-4.
+4. Keep README up to date.
 5.
 6.
 7.
 8.
 9.
 10.Keep your commmits (and branches) atomic. Don't put 17 different edits in a single commit that's hard to decipher and troubleshoot later.
-11.
+11. best practice wsds
 12.
 13.
 14.
