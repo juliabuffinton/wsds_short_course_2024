@@ -52,7 +52,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 12.
 13.
 14.
-15.
+15. Delete the un-used branch after merge
 16.
 17.
 18.
