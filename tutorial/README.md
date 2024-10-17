@@ -50,7 +50,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 10.Keep your commmits (and branches) atomic. Don't put 17 different edits in a single commit that's hard to decipher and troubleshoot later.
 11. best practice wsds
 12.
-13.
+13. Branches should refererence the main regularly to ensure changes in main are merged into branch. Then when branch is complete, merge in main again, before pushing into main.
 14.
 15.
 16.
