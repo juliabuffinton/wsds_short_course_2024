@@ -54,7 +54,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 14.
 15.
 16.
-17.
+17. Commit early and often!
 18.
 19.
 20.
