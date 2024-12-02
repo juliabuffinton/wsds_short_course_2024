@@ -42,7 +42,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 2.
 3.
 4. Keep README up to date.
-5.
+5. Isolate work in branches
 6.
 7.
 8.
