@@ -51,7 +51,7 @@ To transform raw data into actionable insights by employing rigorous analytical 
 11. best practice wsds
 12.
 13.
-14.
+14. Delete obsolete branches
 15.
 16.
 17. Commit early and often!
