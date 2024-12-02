@@ -44,8 +44,8 @@ To transform raw data into actionable insights by employing rigorous analytical 
 4. Keep README up to date.
 5.
 6.
-7.
-8.
+7.keep branches short-lived. --AD
+8.Welcome to Princeton we have Hermes now. --YQ
 9.
 10.Keep your commmits (and branches) atomic. Don't put 17 different edits in a single commit that's hard to decipher and troubleshoot later.
 11. best practice wsds
